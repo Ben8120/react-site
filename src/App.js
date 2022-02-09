@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 
+import Home from "./screens/Home";
+
 function App() {
   const title = "Welcome to Ben's React Blogs!";
   const likes = 50;
@@ -9,8 +11,7 @@ function App() {
   return (
     <div>
     <Navbar />
-      <h1>{title}</h1>
-      <p>Liked {likes} times</p>
+      <Home />
 
       <a href={ link }>Google Site</a>
     </div>
