@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Purpose of this application is to test and learn the usage of React for final year project :)
         </p>
         <a
           className="App-link"
