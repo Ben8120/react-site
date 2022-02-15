@@ -26,7 +26,7 @@ const useFetch = (url) => {
             setError(err.message);
             setIsPending(false);
           })
-      }, 1000)
+      }, 250)
     }, [])
 
     return {blogs, isPending, error}
